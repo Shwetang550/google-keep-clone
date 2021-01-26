@@ -20,7 +20,12 @@ const CreateNote = (props) => {
     };
 
     const handleAdd = () => {
-        return props.passNote(note);
+        props.passNote(note);
+        setNote({
+            title: "",
+            content: ""
+        });
+        
     };
 
     return ( 
