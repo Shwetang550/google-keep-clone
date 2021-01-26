@@ -13,13 +13,18 @@ const App = () => {
     });
   };
 
+  const handleDelete = (id) => {
+    let currentItems = addItem.filter((val, index) => index !== id);
+    setAddItem(currentItems);
+  }
+
   return (
     <>
       <Header />
       <CreateNote passNote={handleNoteAddition} />
       {
         addItem.map((item, index) => {
-          return <Note key={index} title={item.title} content={item.content} />
+          return <Note key={index} id={index} title={item.title} content={item.content} onDelete={handleDelete} />
         })
       }
       <Footer />
