@@ -5,11 +5,13 @@ import './index.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import CreateNote from './Components/CreateNote';
+import Note from './Components/Note';
 
 ReactDOM.render(
   <React.Fragment>
     <Header />
     <CreateNote />
+    <Note />
     <Footer />
   </React.Fragment>,
   document.getElementById('root')
