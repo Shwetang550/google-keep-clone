@@ -18,6 +18,37 @@ footer p {
   color: #ccc;
 }
 
+form {
+  min-height: 50px;
+  color: #ecf0f1;
+  padding: 15px 10px 5px 10px;
+  box-shadow: 3px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  height: 6rem;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
 /*************** Classes ***************/
 
 .header {
@@ -26,7 +57,13 @@ footer p {
   display: flex;
   align-items: center;
   padding-left: 50px;
-  color: white;
+  color: #fff;
   background-color: #f5ba13 !important;
-  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.main_note {
+  width: 500px;
+  padding: 15px 10px 5px 10px;
+  margin: 20px auto;
 }
