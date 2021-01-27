@@ -155,3 +155,7 @@ textarea {
 .note .btn:hover .deleteIcon {
   color: #fff;
 }
+
+.font-style {
+  font-family: 'Poppins', sans-serif;
+}

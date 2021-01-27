@@ -36,10 +36,10 @@ const CreateNote = (props) => {
                     {
                         expand
                         &&
-                        <input onChange={handleChange} type="text" value={note.title} name="title" placeholder="Title" autoComplete="off" />
+                        <input onChange={handleChange} className="font-style" type="text" value={note.title} name="title" placeholder="Title" autoComplete="off" />
                     }
                     
-                    <textarea onChange={handleChange} onClick={() => setExpand(true)} value={note.content} name="content" placeholder="Write a note..." cols="" rows="" />
+                    <textarea onChange={handleChange} onClick={() => setExpand(true)} className="font-style" value={note.content} name="content" placeholder="Write a note..." cols="" rows="" />
                     
                     {
                         expand
