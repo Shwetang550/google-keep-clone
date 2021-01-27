@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Shwetang550/google-keep-clone/static/css/main.5718a11e.chunk.css",
+    "main.js": "/Shwetang550/google-keep-clone/static/js/main.00dd3f5f.chunk.js",
+    "main.js.map": "/Shwetang550/google-keep-clone/static/js/main.00dd3f5f.chunk.js.map",
+    "runtime-main.js": "/Shwetang550/google-keep-clone/static/js/runtime-main.fbdd612a.js",
+    "runtime-main.js.map": "/Shwetang550/google-keep-clone/static/js/runtime-main.fbdd612a.js.map",
+    "static/js/2.f7c5cc8b.chunk.js": "/Shwetang550/google-keep-clone/static/js/2.f7c5cc8b.chunk.js",
+    "static/js/2.f7c5cc8b.chunk.js.map": "/Shwetang550/google-keep-clone/static/js/2.f7c5cc8b.chunk.js.map",
+    "index.html": "/Shwetang550/google-keep-clone/index.html",
+    "static/css/main.5718a11e.chunk.css.map": "/Shwetang550/google-keep-clone/static/css/main.5718a11e.chunk.css.map",
+    "static/js/2.f7c5cc8b.chunk.js.LICENSE.txt": "/Shwetang550/google-keep-clone/static/js/2.f7c5cc8b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fbdd612a.js",
+    "static/js/2.f7c5cc8b.chunk.js",
+    "static/css/main.5718a11e.chunk.css",
+    "static/js/main.00dd3f5f.chunk.js"
+  ]
+}
