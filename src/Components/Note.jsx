@@ -5,7 +5,7 @@ const Note = (props) => {
     return ( 
         <>
             <div className="note">
-                <h1>{props.title}</h1>
+                <h1 style={{fontWeight: "bolder"}}>{props.title}</h1>
                 <br />
                 <p>{props.content}</p>
                 <button className="btn" onClick={() => props.onDelete(props.id)}>
