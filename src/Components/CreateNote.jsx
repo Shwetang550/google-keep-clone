@@ -31,7 +31,7 @@ const CreateNote = (props) => {
 
     return ( 
         <>
-            <div className="main_note">
+            <div className="main_note" onDoubleClick={() => setExpand(false)}>
                 <form>
                     {
                         expand
@@ -39,7 +39,7 @@ const CreateNote = (props) => {
                         <input onChange={handleChange} type="text" value={note.title} name="title" placeholder="Title" autoComplete="off" />
                     }
                     
-                    <textarea onChange={handleChange} onClick={() => setExpand(true)} onDoubleClick={() => setExpand(false)} value={note.content} name="content" placeholder="Write a note..." cols="" rows="" />
+                    <textarea onChange={handleChange} onClick={() => setExpand(true)} value={note.content} name="content" placeholder="Write a note..." cols="" rows="" />
                     
                     {
                         expand
