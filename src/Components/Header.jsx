@@ -1,3 +1,7 @@
+
+//   Develped by - Shwetang
+//   GitHub profile - https://github.com/Shwetang550 
+
 import React from 'react';
 
 const Header = () => {
