@@ -1,4 +1,8 @@
-import React,{ useState } from 'react';
+
+  // Develped by - Shwetang
+  // GitHub profile - https://github.com/Shwetang550 
+
+import React, { useState } from 'react';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import CreateNote from './Components/CreateNote';
